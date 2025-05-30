@@ -1,0 +1,18 @@
+{
+  "name": "@stratedge/cryptops-guard",
+  "version": "2.4.0",
+  "description": "Non-custodial EVM pre-broadcast calldata firewall, Permit2 allowance guard, and Safe{Wallet} EIP-165 TransactionGuard.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["cryptops", "safe-guard", "evm-firewall", "permit2", "pre-broadcast", "x402"],
+  "homepage": "https://cryptops.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StratEdge-Workflow-Systems/cryptops-guard.git"
+  },
+  "author": "StratEdge Workflow Systems LLC <info@stratedgeworkflow.com> (https://www.stratedgeworkflow.com)",
+  "license": "MIT"
+}
