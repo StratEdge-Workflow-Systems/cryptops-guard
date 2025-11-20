@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cryptops.ai/schemas/receipt.schema.json",
+  "title": "StratEdge Deterministic Decision Receipt",
+  "type": "object",
+  "required": ["disposition", "receiptHash"],
+  "properties": {
+    "disposition": { "type": "string", "enum": ["ALLOW", "HOLD", "ESCALATE", "REQUIRE_APPROVAL", "BLOCK"] },
+    "receiptHash": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$" }
+  }
+}
