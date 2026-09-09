@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cryptops.ai/schemas/policy.schema.json",
+  "title": "StratEdge Fail-Closed Policy Configuration",
+  "type": "object",
+  "properties": {
+    "version": { "type": "string", "default": "2.4.0" },
+    "maxSinglePayment": { "type": "number", "minimum": 0 },
+    "allowlistedPayees": { "type": "array", "items": { "type": "string" } }
+  }
+}
